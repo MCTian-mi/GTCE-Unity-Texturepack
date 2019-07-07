@@ -1,0 +1,99 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "gregtech:item/parent/mainware",
+	"textures": {
+		"5": "gregtech:extra/mainframe/quantum",
+		"6": "gregtech:extra/mainframe/basic/back",
+		"7": "gregtech:extra/mainframe/basic/front",
+		"8": "gregtech:extra/mainframe/basic/line",
+		"9": "gregtech:extra/mainframe/basic/side",
+		"10": "gregtech:extra/mainframe/basic/top",
+		"particle": "gregtech:extra/mainframe/basic/side"
+	},
+	"elements": [
+		{
+			"name": "cubea",
+			"from": [4, 0, 0],
+			"to": [13, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 9, 16], "texture": "#7"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#9"},
+				"south": {"uv": [0, 0, 9, 16], "texture": "#6"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#9"},
+				"up": {"uv": [0, 0, 9, 16], "texture": "#10"},
+				"down": {"uv": [0, 0, 9, 16], "texture": "#10"}
+			}
+		},
+		{
+			"name": "cubeb",
+			"from": [8, 0, -0.2],
+			"to": [9, 16.2, 16.2],
+			"faces": {
+				"north": {"uv": [2, 0, 3, 16.2], "texture": "#8"},
+				"east": {"uv": [0, 0, 16.2, 16.2], "texture": "#9"},
+				"south": {"uv": [2, 0, 3, 16.2], "texture": "#8"},
+				"west": {"uv": [0, 0, 16.2, 16.2], "texture": "#9"},
+				"up": {"uv": [2, 0, 3, 16.2], "texture": "#8"},
+				"down": {"uv": [2, 0, 3, 16.2], "texture": "#8"}
+			}
+		},
+		{
+			"name": "cubec",
+			"from": [9, 0, -0.2],
+			"to": [10, 1, 16.2],
+			"faces": {
+				"north": {"uv": [1, 15, 2, 16], "texture": "#8"},
+				"east": {"uv": [1, 15, 2, 16], "texture": "#8"},
+				"south": {"uv": [1, 15, 2, 16], "texture": "#8"},
+				"west": {"uv": [1, 15, 2, 16], "texture": "#8"},
+				"up": {"uv": [1, 15, 2, 16], "texture": "#8"},
+				"down": {"uv": [1, 15, 2, 16], "texture": "#8"}
+			}
+		},
+		{
+			"name": "cubed",
+			"from": [9, 15, -0.2],
+			"to": [10, 16.2, 16.2],
+			"faces": {
+				"north": {"uv": [1, 0, 2, 1.2], "texture": "#8"},
+				"east": {"uv": [0, 0, 16, 1.2], "rotation": 90, "texture": "#9"},
+				"south": {"uv": [2, 0, 1, 1.2], "texture": "#8"},
+				"west": {"uv": [0, 0, 16, 1.2], "texture": "#9"},
+				"up": {"uv": [1, 0, 2, 16], "texture": "#8"},
+				"down": {"uv": [1, 0, 2, 16], "texture": "#8"}
+			}
+		},
+		{
+			"name": "cubee",
+			"from": [10, 0, -0.2],
+			"to": [11, 16.2, 16.2],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16.2], "texture": "#8"},
+				"east": {"uv": [0, 0, 16.2, 16.2], "texture": "#9"},
+				"south": {"uv": [0, 0, 1, 16.2], "texture": "#8"},
+				"west": {"uv": [0, 0, 16.2, 16.2], "texture": "#9"},
+				"up": {"uv": [0, 0, 1, 16.2], "texture": "#8"},
+				"down": {"uv": [0, 0, 1, 16.2], "texture": "#8"}
+			}
+		},
+		{
+			"name": "cubef",
+			"from": [9, 0, -0.1],
+			"to": [10, 16, 16.1],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16.2], "texture": "#5"},
+				"east": {"uv": [0, 0, 16.2, 16.2], "texture": "#9"},
+				"south": {"uv": [1, 0, 2, 16.2], "texture": "#8"},
+				"west": {"uv": [0, 0, 16.2, 16.2], "texture": "#9"},
+				"up": {"uv": [1, 0, 2, 16.2], "texture": "#8"},
+				"down": {"uv": [1, 0, 2, 16.2], "texture": "#8"}
+			}
+		}
+	]
+}
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gregtech:items/metaitems/mainframe.quantum"
+  }
+}

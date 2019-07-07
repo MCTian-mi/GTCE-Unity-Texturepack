@@ -1,0 +1,9 @@
+{
+    "ctm": {
+        "ctm_version": 1,
+        "type": "CTM",
+        "layer": "CUTOUT",
+        "textures": [ "gregtech:blocks/casings/tesla_coil/bottom_ctm.png"  ],
+        "extra": { "connect_inside": true }
+    }
+}
