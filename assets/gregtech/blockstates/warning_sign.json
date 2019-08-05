@@ -1,0 +1,63 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+  },
+  "variants": {
+    "variant": {
+      "yellow_stripes": {
+		"model": "gregtech:cube_yellow_strips_a"
+      },
+      "small_yellow_stripes": {
+		"model": "gregtech:cube_yellow_strips_b"
+      },
+      "radioactive_hazard": {
+		"model": "gregtech:cube_all",
+        "textures": {
+          "all": "gregtech:blocks/casings/signs/machine_casing_radioactivehazard"
+        }
+      },
+      "bio_hazard": {
+		"model": "gregtech:cube_all",
+        "textures": {
+          "all": "gregtech:blocks/casings/signs/machine_casing_biohazard"
+        }
+      },
+      "explosion_hazard": {
+		"model": "gregtech:cube_all",
+        "textures": {
+          "all": "gregtech:blocks/casings/signs/machine_casing_explosionhazard"
+        }
+      },
+      "fire_hazard": {
+		"model": "gregtech:cube_all",
+        "textures": {
+          "all": "gregtech:blocks/casings/signs/machine_casing_firehazard"
+        }
+      },
+      "acid_hazard": {
+		"model": "gregtech:cube_all",
+        "textures": {
+          "all": "gregtech:blocks/casings/signs/machine_casing_acidhazard"
+        }
+      },
+      "magic_hazard": {
+		"model": "gregtech:cube_all",
+        "textures": {
+          "all": "gregtech:blocks/casings/signs/machine_casing_magichazard"
+        }
+      },
+      "frost_hazard": {
+		"model": "gregtech:cube_all",
+        "textures": {
+          "all": "gregtech:blocks/casings/signs/machine_casing_frosthazard"
+        }
+      },
+      "noise_hazard": {
+		"model": "gregtech:cube_all",
+        "textures": {
+          "all": "gregtech:blocks/casings/signs/machine_casing_noisehazard"
+        }
+      }
+    }
+  }
+}

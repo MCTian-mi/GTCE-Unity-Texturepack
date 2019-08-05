@@ -1,0 +1,8 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "gregtech:items/material_sets/magnetic/stick_long",
+        "layer1": "gregtech:items/material_sets/magnetic/stick_long_overlay",
+		"layer2": "gregtech:items/material_sets/magnetic/mag_overlay"
+    }
+}
